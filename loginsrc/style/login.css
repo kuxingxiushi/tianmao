@@ -1,0 +1,152 @@
+@import url(in.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+head,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+figcaption,
+figure,
+span,
+main,
+.iconfont,
+img,
+nav,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+u,
+s,
+del {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+}
+b,
+strong {
+  font-weight: normal;
+}
+img {
+  display: block;
+}
+@media screen and (min-width: 320px) and (max-width: 321px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 376px) {
+  body {
+    font-size: 14px;
+  }
+}
+em,
+i {
+  font-style: normal;
+}
+.center {
+  width: 1190px;
+  margin: 0 auto;
+}
+.bigroot {
+  border-top: 1px solid #D1D7DC;
+  clear: both;
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  margin-top: 50px;
+}
+.bigfoot {
+  width: 1440px;
+  height: 245px;
+  background-color: #000000;
+  position: relative;
+  border-top: 3px solid #FF0002;
+}
+.bigfoot img {
+  position: absolute;
+  top: -25px;
+  left: 168px;
+}
+.foots {
+  width: 100%;
+  height: 100%;
+  color: #D1D7DC;
+  font-size: 12px;
+  position: relative;
+}
+.foots ul {
+  float: left;
+  padding-top: 15px;
+}
+.foots ul li {
+  float: left;
+  padding: 0px 5px;
+}
+.foots dl {
+  float: left;
+  padding-top: 5px;
+  color: #8C8C8C;
+}
+.foots dl dd {
+  float: left;
+  padding-right: 40px;
+}
+.foots dl dd img {
+  width: 20px;
+  height: 20px;
+}
+.foots .tupian {
+  background-color: #fff;
+  width: 147px;
+  height: 71px;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+}
+.foots .tupian2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 89px;
+  left: 66%;
+}
+.foots .tupian3 {
+  width: 35px;
+  height: 35px;
+  z-index: 444;
+  position: absolute;
+  top: 60% !important;
+  left: 66%;
+}

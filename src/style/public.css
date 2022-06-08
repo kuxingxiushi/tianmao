@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+head,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+figcaption,
+figure,
+span,
+main,
+.iconfont,
+img,
+nav,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+u,
+s,
+del {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+}
+b,
+strong {
+  font-weight: normal;
+}
+img {
+  display: block;
+}
+@media screen and (min-width: 320px) and (max-width: 321px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 376px) {
+  body {
+    font-size: 14px;
+  }
+}
+em,
+i {
+  font-style: normal;
+}
+.center {
+  width: 1190px;
+  margin: 0 auto;
+}

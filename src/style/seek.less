@@ -1,0 +1,69 @@
+// 搜索样式
+.seek{
+    width: 100%;
+    height: 111px;
+    overflow: hidden;
+    position: relative;
+    .seek-img{
+        float: left;
+        margin-top: ((111px-53)/2);
+        margin-left: 60px;
+    }
+    .seek-img>img{
+        width: 87px;
+        height: 53px; 
+    }
+    input{
+        float: left;
+        display: block;
+        width: 540px;
+        height: 42px;
+        margin-top: ((111px-42)/2);
+        margin-left: 86px;
+        border-radius: 20px;
+        padding-left: 16px;
+        line-height: 42px;
+        font-size: 12px;
+        border: none;
+        outline: none;
+        border: 1px solid #fe0137;
+       
+    }
+    .seek-sousuo{
+        width: 90px;
+        height: 42px;
+        background-color: #fe0137;
+        font-size: 18px;
+        color: #fff;
+        line-height: 42px;
+        text-align: center;
+        border-radius: 20px;
+        position: absolute;
+        top: ((111px-42)/2);
+        right: 360px;
+        cursor:pointer;
+    }
+}
+.back-left{
+    width: 125px;
+    height: 800px;
+    background-image: url(../images/left.png);
+    background-position:center; 
+    position: absolute;
+    top:134px;
+    left: 0;
+    overflow: hidden;
+}
+.back-right{
+    width: 125px;
+    height: 800px;
+    background-image: url(../images/right.png);
+    background-position:center; 
+    position: absolute;
+    top:134px;
+    right: 0;
+    overflow: hidden;
+    .clear{
+        clear: both;
+    }
+}

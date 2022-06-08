@@ -1,0 +1,224 @@
+header {
+  width: 1440px;
+  min-width: 990px;
+  height: 35px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #eee;
+}
+header .min-header {
+  display: flex;
+  justify-content: space-between;
+}
+header .hea-left {
+  width: 330px;
+  height: 35px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+header .hea-left div {
+  margin: 0 10px;
+}
+header .hea-left div .aaa {
+  color: #f40;
+}
+header .hea-left div a:hover {
+  color: #f40;
+}
+header .hea-right {
+  width: 660px;
+  height: 35px;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .hea-right div {
+  margin: 0 10px;
+}
+header .hea-right div a:hover {
+  color: #f40;
+}
+.tb {
+  width: 220px;
+  height: 180px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.tb img {
+  width: 106px;
+}
+.tb div:nth-child(2) {
+  padding-left: 10px;
+  zoom: 1;
+  display: inline;
+  height: 43px;
+  line-height: 43px;
+  margin-left: 6px;
+  font-size: 22px;
+  font-family: "\5FAE\8F6F\96C5\9ED1", "\534E\6587\7EC6\9ED1", "\9ED1\4F53", arial;
+  font-weight: 400;
+  vertical-align: middle;
+}
+.main {
+  width: 1440px;
+  min-width: 990px;
+  height: 460px;
+}
+.main .min-main {
+  width: 400px;
+  height: 305px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .min-main .inp {
+  width: 400px;
+  height: 36px;
+  display: flex;
+}
+.main .min-main .inp .inp-0 {
+  height: 36px;
+  line-height: 36px;
+  padding-right: 5px;
+}
+.main .min-main .inp .inp-1 {
+  display: block;
+  width: 120px;
+  height: 36px;
+  border: 1px solid #d6d6d6;
+  font-size: 14px;
+  line-height: 36px;
+  padding-left: 3px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.main .min-main .inp .inp-2 {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 200px;
+  height: 36px;
+  border: 1px solid #d6d6d6;
+  font-size: 12px;
+  line-height: 36px;
+  border-left: 0;
+}
+.main .min-main .inp .inp-2 input {
+  display: inline-block;
+  width: 100%;
+  height: 21px;
+  border: 0;
+  padding-left: 10px;
+  outline: none;
+  font-size: 14px;
+}
+.main .min-main .int {
+  width: 400px;
+  height: 36px;
+  display: flex;
+  margin-top: 15px;
+}
+.main .min-main .int .int-0 {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 10px;
+  padding-right: 11px;
+}
+.main .min-main .int .int-1 {
+  border-radius: 5px;
+  width: 320px;
+  height: 36px;
+  border: 1px solid #d6d6d6;
+  font-size: 12px;
+  line-height: 36px;
+  position: relative;
+}
+.main .min-main .int .int-1 input {
+  display: inline-block;
+  width: 100%;
+  height: 21px;
+  border: 0;
+  padding-left: 10px;
+  outline: none;
+  font-size: 14px;
+}
+.main .min-main .int .int-1 span {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 14px;
+  color: #f40;
+}
+.main .min-main .btn {
+  display: block;
+  width: 320px;
+  height: 36px;
+  text-align: center;
+  background-image: linear-gradient(90deg, #f90, #ff5000);
+  font-size: 14px;
+  border: 0;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 70px;
+  border-radius: 5px;
+}
+.main .min-main .text {
+  width: 320px;
+  font-size: 12px;
+  margin-top: 30px;
+  display: flex;
+  margin-left: 70px;
+  cursor: pointer;
+}
+.main .min-main .text p {
+  padding-left: 5px;
+}
+.main .min-main .text span {
+  color: #f40;
+}
+.main .min-main .text-1 {
+  width: 320px;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-left: 270px;
+  color: #f40;
+  cursor: pointer;
+}
+.root {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #DDD;
+  border-top: 1px solid #DDD;
+  font-size: 12px;
+  color: #6C6C6C;
+  display: flex;
+  align-items: center;
+}
+.root a {
+  padding: 0 5px;
+}
+.root a span {
+  padding: 0 10px;
+}
+.root a:hover {
+  color: #f40;
+}
+.root-1 {
+  font-size: 12px;
+  color: #6C6C6C;
+}
+.root-1 p {
+  margin-top: 5px;
+}
+.root-1 a {
+  padding: 0 5px;
+}
+.root-1 a:hover {
+  color: #f40;
+}
+.root-1 span {
+  padding: 0 10px;
+}

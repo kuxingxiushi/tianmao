@@ -1,0 +1,141 @@
+// 轮播图样式
+.banner{
+    width: 100%;
+    height: 533px;
+    display: flex;
+    .banner-left{
+        width: 212px;
+        height: 512px;  
+        .banner-left-opt{
+           padding: 5px 2px;
+           font-size: 14px;
+           color: #666;
+           padding-left: 18px;
+           i{
+               user-select: none;
+           }
+           span>a:hover{
+               color: #FF0031;
+           }
+
+        }
+    }
+    // 轮播图
+    .banner-cen{
+        width: 520px;
+        height: 519px;
+        margin-left: 23px;
+        // 上轮播图
+        .banner-cen-top{
+            width: 520px;
+            height: 280px;
+           background-color: aqua;
+        }
+        // 下轮播图
+        .banner-cen-bot{
+            margin-top: 32px;
+            width: 520px;
+            height: 206px;
+        }
+    }
+    .banner-right{
+        width: 356px;
+        height: 519px;
+        margin-left: 15px;
+        background: #F3F3F3;
+        .banner-right-top{
+            width: 356px;
+            height: 126px;
+
+            overflow: hidden;
+            img{
+                width: 80px;
+                height: 80px;
+                border-radius: 80px;
+                margin: 0 auto;
+                margin-top: ((126px-80)/2); 
+            }
+            p{
+                font-size: 12px;
+                text-align: center;
+                cursor: pointer;
+ 
+            }
+            p:hover{
+                text-decoration: underline;
+            }
+        }
+        .banner-right-cen{
+          width: 356px;
+          height: 141px;
+          border-radius: 6px;
+        
+          img{
+              box-sizing: border-box;
+              padding: 5px 10px;
+              width: 350px;
+              margin-left: 3px;
+          }   
+        }
+        .banner-right-bot{
+            width: 370px;
+            height: 106px;
+            margin-top: 20px;
+            font-size: 12px;
+            h2{
+                font-size: 14px;
+                font-weight: 700px;
+                color: #000;
+                line-height: 16px;
+                span{
+                    color: #666;
+                    font-size: 14px;
+                    line-height: 14px;
+                    margin-bottom: 12px;
+                }
+            }
+            a{
+                display: block;
+                line-height: 30px;
+                font-size: 12px;
+            }
+            .b-r-b-span1{
+                background-color: rgba(255, 174, 174, .2);
+                color: #fe0137;
+                font-size: 12px;
+                padding: 3px 4px;
+                border-radius: 2px;
+                margin-right: 4px;
+                #banner-a{
+                    color: #666;
+                    font-size: 12px;
+                    line-height: 12px;
+                    span{
+                        color: #666;
+                    }
+                }
+            }
+        }
+        .banner-right-foot{
+            width: 354px;
+            height: 81px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            .iconfont{
+                font-size: 30px;
+                text-align: center;
+                padding-left: 15px;
+            }
+            .iconfont:nth-child(3){
+                font-weight: 100;
+            }
+            a{
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,192 @@
+header {
+  width: 1440px;
+  min-width: 990px;
+  height: 90px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+header .header-son {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+header .header-son .header-1 {
+  width: 72px;
+  height: 45px;
+}
+header .header-son .header-1 img {
+  width: 100%;
+  height: 100%;
+}
+header .header-son .header-2 {
+  width: 126px;
+  height: 42px;
+}
+header .header-son .header-2 p > a:hover {
+  color: #f40;
+}
+.banner {
+  width: 1440px;
+  min-width: 990px;
+  min-height: 600px;
+  background-image: url(../images/beijin.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.banner .box {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 120px;
+  right: 60px;
+}
+.banner .box .anquan {
+  position: absolute;
+  top: 5px;
+  right: 60px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #F6DC8A;
+  background-color: #FEFDED;
+}
+.banner .box .anquan span {
+  display: block;
+  color: #ff9000;
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+.banner .box .box-a {
+  display: block;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.banner .box .box-a img {
+  width: 52px;
+  height: 52px;
+}
+.banner .box .min-box {
+  width: 350px;
+  min-height: 350px;
+  padding: 25px 25px 23px;
+  color: #6c6c6c;
+  background: #E9E8F2;
+  margin: 0 auto;
+}
+.banner .box .min-box .box-1 {
+  margin: 8px 0;
+  color: #6c6c6c;
+}
+.banner .box .min-box .box-1 a {
+  height: 18px;
+  line-height: 5px;
+  font-size: 16px;
+  color: #3c3c3c;
+  margin: 9px 10px 0 0;
+  font-weight: 700;
+}
+.banner .box .min-box .box-1 a:nth-child(1) {
+  border-bottom: 2px solid black;
+}
+.banner .box .min-box .user,
+.banner .box .min-box .pas,
+.banner .box .min-box .btn {
+  width: 300px;
+  height: 40px;
+  margin: 40px 0 20px 0;
+}
+.banner .box .min-box .user label,
+.banner .box .min-box .pas label,
+.banner .box .min-box .btn label {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #CCCCCC;
+  line-height: 40px;
+}
+.banner .box .min-box .user .iconfont,
+.banner .box .min-box .pas .iconfont,
+.banner .box .min-box .btn .iconfont {
+  text-align: center;
+  line-height: 29px;
+  font-size: 25px;
+  color: #fff;
+}
+.banner .box .min-box .user input,
+.banner .box .min-box .pas input,
+.banner .box .min-box .btn input {
+  border: 1px solid #ccc;
+  height: 40px;
+  line-height: 40px;
+  outline: none;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 116.5px;
+  margin-left: -6px;
+  font-size: 12px;
+}
+.banner .box .min-box .btn {
+  margin-top: 10px;
+  background: #f40;
+  border-color: #f40;
+  font-size: 16px;
+  border: 1px solid #ff9000;
+  border-radius: 3px;
+  height: 42px;
+  line-height: 42px;
+  outline: none;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+}
+.banner .box .min-box .zhifubao {
+  width: 300px;
+  height: 40px;
+  text-align: left;
+}
+.banner .box .min-box .zhifubao span {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.banner .box .min-box .zhifubao span:hover {
+  color: #f40;
+}
+.banner .box .min-box .root {
+  width: 300px;
+  height: 40px;
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: right;
+}
+.banner .box .min-box .root a {
+  display: inline-block;
+  padding: 0 10px;
+}
+.banner .box .min-box .root a:hover {
+  color: #f40;
+}
+#sjx {
+  position: absolute;
+  top: 27px;
+  right: 11px;
+  width: 0;
+  height: 0;
+  border-right: 32px solid transparent;
+  border-left: 32px solid transparent;
+  border-bottom: 32px solid #EAE7F3;
+  transform: rotateZ(225deg);
+}

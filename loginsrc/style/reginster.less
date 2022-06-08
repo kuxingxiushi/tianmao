@@ -1,0 +1,240 @@
+// 头部
+header{
+    width: 1440px;
+    min-width: 990px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+    .min-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hea-left{
+        width: (990px/3);
+        height: 35px;
+        font-size: 12px;
+        // background-color: pink;
+        display: flex;
+        align-items: center;
+       div{
+        margin: 0 10px;
+        .aaa{
+            color: #f40;
+        }
+        a:hover{
+            color: #f40;
+        }
+       }
+    }
+    .hea-right{
+        width: (990px/1.5);
+        height: 35px;
+        font-size: 12px;
+        // background-color: yellow;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        div{
+            margin: 0 10px;
+            a:hover{
+                color: #f40;
+            }
+           }
+    }
+}
+// 淘宝网用户注册
+.tb{
+    width: 220px;
+    height: 180px;
+    margin-top: 20px;
+    // background-color: pink;
+    display: flex;
+    align-items: center;
+    img{
+        width: 106px;
+        
+    }
+    div:nth-child(2){
+        padding-left: 10px;
+        zoom: 1;
+        display: inline;
+        height: 43px;
+        line-height: 43px;
+        margin-left: 6px;
+        font-size: 22px;
+        font-family: "\5FAE\8F6F\96C5\9ED1","\534E\6587\7EC6\9ED1","\9ED1\4F53",arial;
+        font-weight: 400;
+        vertical-align: middle;
+    }
+}
+// 注册界面
+.main{
+    width: 1440px;
+    min-width: 990px;
+    height: 460px;
+    .min-main{
+        width: 400px;
+        height: 305px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .inp{
+            width: 400px;
+            height: 36px;
+            display: flex;
+            .inp-0{
+                // width: 50px;
+                height: 36px;
+                line-height: 36px;
+                padding-right: 5px;
+            }
+            .inp-1{
+                // border-radius: 5px;
+                // border-radius: 0 0 0 0;
+                display: block;
+                width: 120px;
+                height: 36px;
+                border: 1px solid #d6d6d6;
+                font-size: 14px;
+                line-height: 36px;
+                padding-left:3px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+            .inp-2{
+                // border-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border-top-right-radius: 5px;
+                width: 200px;
+                height: 36px;
+                border: 1px solid #d6d6d6;
+                font-size: 12px;
+                line-height: 36px;
+                border-left: 0;
+                input{
+                    display: inline-block;
+                    width: 100%;
+                    height: 21px;
+                    border: 0;
+                    padding-left: 10px;
+                    outline: none;
+                    font-size: 14px;
+                }
+            }
+        }
+        .int{
+            width: 400px;
+            height: 36px;
+            display: flex;
+            margin-top: 15px;
+            .int-0{
+                height: 36px;
+                line-height: 36px;
+                padding-left: 10px;
+                padding-right: 11px;
+            }
+            .int-1{
+                border-radius: 5px;
+                width: 320px;
+                height: 36px;
+                border: 1px solid #d6d6d6;
+                font-size: 12px;
+                line-height: 36px;
+                position: relative;
+                input{
+                    display: inline-block;
+                    width: 100%;
+                    height: 21px;
+                    border: 0;
+                    padding-left: 10px;
+                    outline: none;
+                    font-size: 14px;
+                }
+                span{
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    right: 10px;
+                    font-size: 14px;
+                    color: #f40;
+                }
+            }
+        }
+    .btn{
+        display: block;
+        width: 320px;
+        height: 36px;
+        text-align: center;
+        background-image: linear-gradient(90deg,#f90,#ff5000);
+        font-size: 14px;
+        border: 0;
+        color: #fff;
+        margin-top: 50px;
+        margin-left: 70px;
+        border-radius: 5px;
+
+    }
+    .text{
+        width: 320px;
+        font-size: 12px;
+        margin-top: 30px;
+        display: flex;
+        // background-color: #f90;
+        margin-left: 70px;
+        cursor: pointer;
+        p{
+            padding-left: 5px;
+        }
+        // justify-content: flex-end;
+        span{
+            color: #f40;
+        }
+    }
+    .text-1{
+        width: 320px;
+        font-size:12px;
+        margin-top: 30px;
+        margin-left: 270px;
+        color: #f40;
+        cursor: pointer;
+    }
+    }
+}
+// 底部
+.root{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #DDD;
+    font-size: 12px;
+    color: #6C6C6C;
+    display: flex;
+    align-items: center;
+    a{
+        padding: 0 5px;
+        span{
+            padding: 0 10px;
+        }
+    }
+    a:hover{
+       color: #f40;
+    }
+
+}
+.root-1{
+    font-size: 12px;
+    color: #6C6C6C;
+    p{
+        margin-top: 5px;
+    }
+    a{
+        padding: 0 5px;
+    }
+    a:hover{
+        color: #f40;
+    }
+    span{
+        padding: 0 10px;
+    }
+}

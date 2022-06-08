@@ -1,0 +1,37 @@
+{
+  "id": "3452394",
+  "name": "天猫个人中心",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "145487",
+      "name": "兑换",
+      "font_class": "duihuan",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "12889068",
+      "name": "巴士",
+      "font_class": "bashi",
+      "unicode": "e78a",
+      "unicode_decimal": 59274
+    },
+    {
+      "icon_id": "1305",
+      "name": "购物车满",
+      "font_class": "gouwucheman",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3051209",
+      "name": "身份证正面",
+      "font_class": "shenfenzhengzhengmian",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

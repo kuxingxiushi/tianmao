@@ -1,0 +1,182 @@
+@import url(main.css);
+@import url(root.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+head,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+figcaption,
+figure,
+span,
+main,
+.iconfont,
+img,
+nav,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+u,
+s,
+del {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+}
+b,
+strong {
+  font-weight: normal;
+}
+img {
+  display: block;
+}
+@media screen and (min-width: 320px) and (max-width: 321px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 376px) {
+  body {
+    font-size: 14px;
+  }
+}
+em,
+i {
+  font-style: normal;
+}
+.center {
+  width: 1190px;
+  margin: 0 auto;
+}
+header {
+  width: 1440px;
+  height: 35px;
+  min-width: 990px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+  color: #BABABA;
+}
+header .hea-l {
+  float: left;
+}
+header .hea-l > div {
+  float: left;
+  line-height: 35px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+header .hea-l > div :hover {
+  color: #FF5A00;
+}
+header .hea-r {
+  float: right;
+}
+header .hea-r > div {
+  float: right;
+  line-height: 35px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+header .hea-r > div :hover {
+  color: #FF5A00;
+}
+header .hea-r > div .iconfont {
+  padding: 0 ;
+  font-size: 12px;
+  color: #FF5A00;
+}
+header .hea-r > div:nth-child(6) {
+  padding: 0;
+}
+.nav {
+  width: 1440px;
+  height: 60px;
+  background: #ff4401;
+  position: relative;
+  z-index: 5;
+  border-bottom: 1px #e7e7e7 solid;
+}
+.nav .nav-l {
+  float: left;
+}
+.nav .nav-l a {
+  display: block;
+  float: left;
+  line-height: 60px;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 0 25px;
+}
+.nav .nav-l a img {
+  padding-top: 12px;
+  padding-right: 55px;
+}
+.nav .nav-r {
+  float: right;
+}
+.nav .nav-r input,
+.nav .nav-r button {
+  display: block;
+  float: right;
+}
+.nav .nav-r input {
+  width: 250px;
+  height: 26px;
+  border: 0;
+  background-color: #fff;
+  margin-top: 17px;
+}
+.nav .nav-r button {
+  text-indent: 0;
+  font-size: 12px;
+  color: #666;
+  background: #f5f5f5;
+  height: 26px;
+  width: 72px;
+  border: 0;
+  border-left: 1px solid #d9d9d9;
+  margin-top: 17px;
+}
+#l {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 14px solid #fff;
+  position: absolute;
+  bottom: -3px;
+  left: 400px;
+}
