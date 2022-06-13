@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./src/js/library/swiper-7.4.1/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_3444092_odhd67ss2.css">
     <link rel="stylesheet" href="./src/style/ssss.css">
+  
 </head>
 <!-- 主页 -->
 <body>
@@ -27,13 +28,18 @@
                     <div class="nav-hover"><a href="./register.html" class="nav-left-font">免费注册</a></div>
                 </div>
                 <div class="nav-right">
-                    <div class="nav-hover"><a href="./personal.html" class="nav-right-font display-taobao">我的淘宝</a></div>
+                    <div class="nav-hover " id="taobao"><a href="./personal.html" class="nav-right-font display-taobao">我的淘宝</a></div>
+                    <div class="nav-none"><a href="javascript:;">已买到宝贝</a><a href="javascript:;">已买到宝贝</a></div>
                     <div class="nav-hover"><a href="./shop.html" class="nav-right-font"><span
                                 class="iconfont icon-gouwucheman"></span> 购物车</a></div>
-                    <div class="nav-hover"><a href="javascript:;" class="nav-right-font">收藏夹</a></div>
+                    <div class="nav-hover" id="coll"><a href="javascript:;" class="nav-right-font">收藏夹</a></div>
+                    <div id="collection"> <a href="javascript:;">收藏的店铺</a><a href="javascript:;">收藏的宝贝</a> </div>
                     <div><span class="nav-right-font" id="nav-user">|</span></div>
-                    <div class="nav-hover"><a href="javascript:;" class="nav-right-font"><span
-                                class="iconfont icon-shouji"></span> 手机版</a></div>
+                    <div class="nav-hover phones"><a href="javascript:;" class="nav-right-font"><span
+                                class="iconfont icon-shouji"></span> 手机版</a>
+                            </div>
+                            <div id="phone"><img src="./src/images/phone.jpg" alt="">
+                            </div>
                     <div class="nav-hover"><a href="javascript:;" class="nav-right-font">淘宝网</a></div>
                     <div class="nav-hover"><a href="javascript:;" class="nav-right-font">网页无障碍</a></div>
                     <div class="nav-hover"><a href="javascript:;" class="nav-right-font">商家支持</a></div>
@@ -73,8 +79,8 @@
         </div>
     </div>
     <!-- 左右两边背景图 -->
-    <div class="back-left"></div>
-    <div class="back-right"></div>
+    <!-- <div class="back-left"></div>
+    <div class="back-right"></div> -->
     <!-- 搜索框 -->
     <div class="center">
         <div class="seek">
@@ -244,8 +250,8 @@
                             <div class="swiper-slide"><img src="./src/images/banner4.png" alt=""></div>
                             <div class="swiper-slide"><img src="./src/images/banner5.png" alt=""></div>
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next jiantou"></div>
+                        <div class="swiper-button-prev jiantou"></div>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
@@ -260,8 +266,8 @@
                             <div class="swiper-slide"><img src="./src/images/banner04.png" alt=""></div>
                             <div class="swiper-slide"><img src="./src/images/banner02.png" alt=""></div>
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next jiantou"></div>
+                        <div class="swiper-button-prev jiantou"></div>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
@@ -313,8 +319,8 @@
     <div class="center">
         <!-- 天猫超市图片 -->
         <div class="mian-img"><img src="./src/images/tmchaoshi.png" alt=""></div>
-        <div class="mian-borther">
-            <a href="./details.html" class="mian-bot">
+        <div class="mian-borther items">
+            <!-- <a href="./details.html" class="mian-bot">
                 <img src="./src/images/p3.png" alt="">
                 <p>名创优品北欧无火香薰精油50ml空气清新剂家用持久香氛室内祛异味</p>
                 <span>¥30</span>
@@ -333,11 +339,11 @@
                 <img src="./src/images/p2.png" alt="">
                 <p>名创优品北欧无火香薰精油50ml空气清新剂家用持久香氛室内祛异味</p>
                 <span>¥30</span>
-            </a>
+            </a> -->
         </div>
         <div class="mian-img"><img src="./src/images/tmguoji.png" alt=""></div>
 
-        <div class="mian-borther">
+        <div class="mian-borther itm">
             <a href="./details.html" class="mian-bot">
                 <img src="./src/images/p.png" alt="">
                 <p>名创优品北欧无火香薰精油50ml空气清新剂家用持久香氛室内祛异味</p>

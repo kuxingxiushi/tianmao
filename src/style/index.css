@@ -85,7 +85,7 @@ i {
   margin: 0 auto;
 }
 header {
-  width: 1440px;
+  width: 100%;
   min-width: 990px;
   height: 26px;
   background: #f2f2f2;
@@ -273,8 +273,8 @@ header .nav .iconfont {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 89px;
-  left: 66%;
+  top: 102px;
+  left: 85%;
 }
 .foots .tupian3 {
   width: 35px;
@@ -282,5 +282,5 @@ header .nav .iconfont {
   z-index: 444;
   position: absolute;
   top: 60% !important;
-  left: 66%;
+  left: 72%;
 }

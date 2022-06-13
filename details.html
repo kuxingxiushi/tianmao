@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="./details(src)/style/datalis.css">
     <link rel="stylesheet" href="./src/js/library/swiper-7.4.1/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./details(src)/style/swiper.css">
+    <style>
+        .active{
+            z-index: 11;
+        }
+        .acto-color{
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <!-- 详情页 -->
 <body>
@@ -22,18 +30,18 @@
         <div class="center">
             <div class="min-nav">
                 <div class="nav-l">
-                    <div><a href="javascript:;">天猫首页</a></div>
+                    <div><a href="./index.html">天猫首页</a></div>
                     <div><a href="javascript:;">喵，欢迎来天猫</a></div>
-                    <div><a href="javascript:;">请登入</a></div>
-                    <div><a href="javascript:;">免费注册</a></div>
+                    <div><a href="./Login.html">请登入</a></div>
+                    <div><a href="./register.html">免费注册</a></div>
                 </div>
                 <div class="nav-r">
-                    <div><a href="javascript:;">我的淘宝</a></div>
-                    <div><a href="javascript:;">购物车</a></div>
+                    <div><a href="./personal.html">我的淘宝</a></div>
+                    <div><a href="./shop.html">购物车</a></div>
                     <div><a href="javascript:;">收藏夹</a></div>
                     <div>|</div>
                     <div><a href="javascript:;">手机版</a></div>
-                    <div><a href="javascript:;">淘宝网</a></div>
+                    <div><a href="./index.html">淘宝网</a></div>
                     <div><a href="javascript:;">网页无障碍</a></div>
                     <div><a href="javascript:;">商家支持</a></div>
                     <div><a href="javascript:;">商家中心</a></div>
@@ -89,18 +97,18 @@
                 <!--左边图片区域 -->
                <div class="main-l">
                    <div class="l-top">
-                       <img src="./details(src)/images/p.png" alt="">
-                       <img src="./details(src)/images/p2.png" alt="">
-                       <img src="./details(src)/images/p3.png" alt="">
-                       <img src="./details(src)/images/p4.png" alt="">
-                       <img src="./details(src)/images/p5.png" alt="">
+                       <img class="bigp1" src="./details(src)/images/p1.png" alt="">
+                       <img class="bigp2"  src="./details(src)/images/p.png" alt="">
+                       <img class="bing3" src="./details(src)/images/p3.png" alt="">
+                       <img class="bing4" src="./details(src)/images/p4.png" alt="">
+                       <img class="bing5" src="./details(src)/images/p5.png" alt="">
                    </div>
                    <div class="l-bot">
-                    <img src="./details(src)/images/p.png" alt="">
-                    <img src="./details(src)/images/p2.png" alt="">
-                    <img src="./details(src)/images/p3.png" alt="">
-                    <img src="./details(src)/images/p4.png" alt="">
-                    <img src="./details(src)/images/p5.png" alt="">
+                    <img class="p1" src="./details(src)/images/p1.png" alt="">
+                    <img class="p2" src="./details(src)/images/p2.png" alt="">
+                    <img class="p3" src="./details(src)/images/p3.png" alt="">
+                    <img class="p4" src="./details(src)/images/p4.png" alt="">
+                    <img class="p5" src="./details(src)/images/p5.png" alt="">
                    </div>
                    <div class="m-text">
                     <p>
@@ -120,7 +128,7 @@
                     <dd><span>月销量8万+</span><span>|</span><span>送天猫积分9</span></dd>
                     <dd><span>购买规格</span> <span class="box">1件</span> <span class="box">2件</span> <span class="box">3件</span></dd>
                     <dd><span>数量</span> <span class="box">1</span> <span>有货</span></dd>
-                    <button>加入购物车</button>
+                    <button id="addItem">加入购物车</button>
                     <dd class="d-d"><span>配送范围 </span>送货范围仅限舟山、嘉兴、台州、衢州、温州、宁波、金华、绍兴、杭州、丽水、湖州地区(生鲜类别仅限部分地区)</dd>
                     <dd>支付方式</dd>
                 </dl>
@@ -294,4 +302,6 @@
 </html>
 <script src="./details(src)/js/swiper-bundle.min.js"></script>
 <script src="./details(src)/js/details.js"></script>
+<script src="./src/js/itm.js" type="module"></script>
+
 

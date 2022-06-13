@@ -34,3 +34,56 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* js效果 */
+  .nav-right .nav-none{
+    width: 100px;
+    height: 55px;
+    background-color: #fff;
+    position: absolute;
+    top:26px;
+    display: none;
+  }
+  .nav-right .nav-none a{
+    width: 100px;
+    text-align: center;
+    margin-top: 5px;
+    display: block; 
+  }
+   .active{
+    text-decoration: underline;
+    color: red;
+  }
+  /* 收藏 */
+  #collection{
+    width: 80px;
+    height: 55px;
+    background-color: #fff;
+    position: absolute;
+    top: 26px;
+    left: 700px;
+    display: none;
+  }
+  #collection a{
+    display: block;
+    width: 80px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  /* 手机版 */
+  #phone{
+    width: 175px;
+    height: 255px;
+    position: absolute;
+    left: 705px;
+    top: 8px;
+    display: none;
+
+  }
+  .phones a:hover #phone{
+    display: block;
+  }
+  .jiantou{
+
+    color: #ccc;
+  }

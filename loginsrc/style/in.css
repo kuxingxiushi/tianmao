@@ -1,5 +1,5 @@
 header {
-  width: 1440px;
+  width: 100%;
   min-width: 990px;
   height: 90px;
   overflow: hidden;
@@ -30,7 +30,6 @@ header .header-son .header-2 p > a:hover {
   color: #f40;
 }
 .banner {
-  width: 1440px;
   min-width: 990px;
   min-height: 600px;
   background-image: url(../images/beijin.png);
